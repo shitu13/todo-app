@@ -6,8 +6,12 @@ function App() {
 
   return (
     <>
-      <div className='bg-stone-900 grid landscape'>
-        <Todo />
+      <div className='bg-stone-900 min-h-screen w-full flex-row'>
+        <div className="container mx-auto p-4">
+          {/* Your Todo List component */}
+          <Todo />
+        </div>
+
       </div>
     </>
   )
