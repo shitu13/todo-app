@@ -55,7 +55,7 @@ function Todo() {
             {/* Title  */}
             <div className='flex items-center mt-7 gap-2'>
                 <img className='w-8' src={todo_icon} alt="todo-icon" />
-                <h1 className='text-3xl font-bold text-gray-800'>Todo List</h1>
+                <h1 className='text-3xl font-bold text-gray-800'>Todo List from test branch</h1>
             </div>
 
 
